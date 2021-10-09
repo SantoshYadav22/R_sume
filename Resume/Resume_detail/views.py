@@ -6,7 +6,10 @@ def run(request):
     return HttpResponse('<h1>hello it santosh</h1>')
 
 def runs(request):
-    return HttpResponse('<h1>hello it yadav</h1>')
+    return render(request,'corehtml/base.html')
 
 def cores(request):
-    return render(request,'corehtml/base.html')
+    return render(request,'corehtml/about.html')
+
+def kores(request):
+    return render(request,'corehtml/contact.html')
