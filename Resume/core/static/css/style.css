@@ -1,6 +1,7 @@
 
-img{
+h2,img{
     width: 30%;
     height: 30%;
     border: 2px solid red;
 }
+#meme{border: 3px solid red;}
