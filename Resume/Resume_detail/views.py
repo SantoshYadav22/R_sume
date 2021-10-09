@@ -9,4 +9,4 @@ def runs(request):
     return HttpResponse('<h1>hello it yadav</h1>')
 
 def cores(request):
-    return render(request,'base.html')
+    return render(request,'corehtml/base.html')
