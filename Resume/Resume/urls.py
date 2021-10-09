@@ -20,4 +20,5 @@ from Resume_detail import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.run),
+    path('run/', views.runs),
 ]
