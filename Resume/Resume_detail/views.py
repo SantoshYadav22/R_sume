@@ -7,3 +7,6 @@ def run(request):
 
 def runs(request):
     return HttpResponse('<h1>hello it yadav</h1>')
+
+def cores(request):
+    return render(request,'base.html')
